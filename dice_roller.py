@@ -3,8 +3,7 @@ import time
 import sys
 
 def roll_die():
-    input("Press 'Enter'
-     to roll the die...")
+    input("Press 'Enter' to roll the die...")
     print("Rolling", end="")
     for _ in range(3):
         time.sleep(0.5)
